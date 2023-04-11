@@ -1,8 +1,0 @@
-.resume {
-  display: grid;
-  background-color: darkcyan;
-  grid-template-columns: repeat(auto-fill, 500px);
-  grid-template-rows: repeat(auto-fill, 50px);
-  max-width: 1020px;
-  min-width: 50vh;
-}
