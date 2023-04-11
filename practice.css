@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.resume-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  flex: 0 0 150px;
+  margin-right: 50px;
+}
+
+.profile-picture img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section p,
+.section ul {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style: none;
+}
+
+.section ul li {
+  margin-bottom: 5px;
+}
+
+.work {
+  margin-bottom: 30px;
+}
+
+.work h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.work h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #777;
+}
+
+.work h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.portfolio li {
+  margin-bottom: 5px;
+}
+
+.portfolio li a {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.portfolio li a:hover {
+  color: #007bff;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 30px;
+  }
+
+  .resume-header {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .profile-picture {
+    flex: 0 0 120px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .profile-details {
+    text-align: center;
+  }
+
+  .name {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .job-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section p,
+  .section ul {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .work h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .portfolio li {
+    margin-bottom: 10px;
+  }
+}
